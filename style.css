@@ -87,11 +87,10 @@ textarea:focus {
 }
 
 /* Estilo para o checkbox (Aceito os termos) */
-.checkbox {
+.radio-group {
   display: flex; /* Alinha o checkbox e o texto lado a lado */
   align-items: center; /* Centraliza verticalmente o texto e o checkbox */
-  font-size: 14px; /* Define o tamanho da fonte */
-  margin-bottom: 20px; /* Espaço abaixo do checkbox */
+  font-size: 16px; /* Define o tamanho da fonte */
 }
 
 /* Estilo do botão de envio do formulário */

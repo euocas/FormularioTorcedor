@@ -61,15 +61,32 @@
 
     <label>Sócio Torcedor?</label>
     <div class="radio-group">
-        <label><input type="radio" name="funcao" value="funcao"> Sim</label>
-        <label><input type="radio" name="funcao" value="funcao"> Não</label>
+        <label><input type="radio" name="socio" value="socio"> Sim</label>
+        <label><input type="radio" name="socio" value="socio"> Não</label>
         </div>
-
+    
+        <label>Possui a camisa oficial?</label>
+    <div class="radio-group">
+        <label><input type="radio" name="camisa" value="camisa"> Sim</label>
+        <label><input type="radio" name="camisa" value="camisa"> Não</label>
+        </div>
     
 
     <label for="mensagem">Com qual frequência você vai ao estadio?</label>
-    <input type="text" name="mensagem" id="mensagem"  placeholder="Insira sua frequência aqui"></textarea>
 
+        <div class="radio-group">
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="1"  required> Raramente</label>
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="2"  required> Pouco</label>
+    <label class="radio-label">    
+        <input type="radio" name="frequencia" value="3"  required> Muito</label>
+    <label class="radio-label">
+        <input type="radio" name="frequencia" value="4"  required> Frequentemente</label>
+        <br>
+        </div>
+
+        <br>
 
     <button type="submit">Enviar Formulário</button>
 
